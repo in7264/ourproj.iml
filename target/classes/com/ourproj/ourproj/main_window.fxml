@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #a1d1a3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ourproj.ourproj.main_window_Controller">
+   <children>
+      <Label alignment="TOP_CENTER" prefHeight="130.0" prefWidth="1024.0" text="Автоматизована система управлiння  навчальним процесом НТУ " textAlignment="CENTER" textFill="#03003c" wrapText="true">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="273.0" fitWidth="310.0" layoutX="582.0" layoutY="248.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="78.0" layoutY="202.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+            <Button fx:id="Registration_of_students" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Реєстрація зарахованих студентів" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Support_of_the_educational_process" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Супровiд навчального процесу">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Making_changes_and_transferring_to_the_course" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Внесення змін та переведення на курс">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="View_and_print_information" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Перегляд та друк інформації">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Visiting" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Відвідування">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Modular_control" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Модульний контроль">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Directory" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Довідник">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button fx:id="Info" mnemonicParsing="false" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Про розробників">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Separator prefWidth="200.0" />
+            <Button mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="40.0" prefWidth="400.0" style="-fx-border-color: #000000;" text="Вихід">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="790.0" layoutY="714.0" prefHeight="40.0" prefWidth="220.0">
+         <children>
+            <Label fx:id="Dekanat_name" alignment="TOP_CENTER" prefHeight="30.0" prefWidth="220.0" text="FTIT" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
